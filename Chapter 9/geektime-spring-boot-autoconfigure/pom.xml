@@ -35,6 +35,8 @@
 			<groupId>geektime.spring.hello</groupId>
 			<artifactId>greeting</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
+			<!-- 注意这里是provided，用在ConditionalOnClass的时候，是别的工程引入了这个类的时候，才会做自动配置。如果直接就compile了
+			 那就相当于直接依赖了-->
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
