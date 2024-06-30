@@ -12,8 +12,8 @@ public class AutoconfigureDemoApplication {
 		SpringApplication.run(AutoconfigureDemoApplication.class, args);
 	}
 
-	@Bean
+	/*@Bean
 	public GreetingApplicationRunner greetingApplicationRunner() {
 		return new GreetingApplicationRunner("Mac");
-	}
+	}*/
 }

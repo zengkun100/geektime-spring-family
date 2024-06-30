@@ -20,11 +20,12 @@
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
 
-		<!--<dependency>-->
-			<!--<groupId>geektime.spring.hello</groupId>-->
-			<!--<artifactId>geektime-spring-boot-starter</artifactId>-->
-			<!--<version>0.0.1-SNAPSHOT</version>-->
-		<!--</dependency>-->
+		<!--所谓的starter，就是将其它的pom做了一次包装，这样我的应用只依赖一个start的pom就完事了-->
+		<dependency>
+			<groupId>geektime.spring.hello</groupId>
+			<artifactId>geektime-spring-boot-starter</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<!-- 以下是手工实现的自动配置 -->
 		<!--<dependency>-->
@@ -34,7 +35,7 @@
 		<!--</dependency>-->
 
 		<!-- 以下是基于Spring Boot的自动配置 -->
-		<dependency>
+		<!--<dependency>
 			<groupId>geektime.spring.hello</groupId>
 			<artifactId>geektime-spring-boot-autoconfigure</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
@@ -44,7 +45,7 @@
 			<groupId>geektime.spring.hello</groupId>
 			<artifactId>greeting</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		</dependency>-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
